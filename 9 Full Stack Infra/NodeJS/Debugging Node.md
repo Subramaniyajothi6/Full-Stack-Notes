@@ -1,0 +1,61 @@
+---
+tags: [nodejs, intermediate, tooling]
+---
+
+# Debugging Node
+
+## Tools
+- `node --inspect` + Chrome DevTools (chrome://inspect)
+- VS Code: F5 with `launch.json`
+- `node --inspect-brk` — break on first line
+- `console.log`, `util.inspect`
+
+## Useful
+- Source maps: `node --enable-source-maps`
+- Profiler: see [[Performance and Profiling]]
+- `--trace-warnings`, `--trace-deprecation`
+
+## Common mistakes
+- Leaving `debugger` in production
+- Forgetting source maps with TS
+
+## Related
+- [[Performance and Profiling]] · [[Logging in Node]]
+
+<!-- upgrade-notes.py auto-appended -->
+
+## Prerequisites
+- TODO: link prerequisite notes
+
+## What To Learn Next
+- TODO: link follow-up notes
+
+## Real World Usage
+- TODO: where this concept appears in production
+
+## Best Learning Resources
+
+### Official Documentation
+- https://nodejs.org/en/docs — TODO: pick the most relevant page and say why
+
+### Best YouTube Resource
+- TODO: e.g. Hussein Nasser, TechWorld with Nana, Traversy Media
+
+### Best Free Course
+- TODO
+
+### Best Advanced Resource
+- TODO
+
+### Best Practice Project
+- TODO: 1-paragraph project idea
+
+### Recommended Order to Learn
+1. TODO
+2. TODO
+3. TODO
+
+## Interview Questions
+**Q. TODO** — A. ...
+
+**Q. TODO** — A. ...

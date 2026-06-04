@@ -1,0 +1,469 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# MERN Stack Roadmap (integration layer)",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "6"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Integration",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/API Contract.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Type Sharing.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "m3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Form Lifecycle.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "m4",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Cross-Domain Cookies.md",
+      "x": 0,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "m5",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/tRPC.md",
+      "x": 0,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Auth",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "ma1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Full-Stack Auth Flow.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ma2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Protected Routes End-to-End.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ma3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Auth.js and Clerk.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Deploy",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "md1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Deployment Architecture.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "md2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Dockerized MERN.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "md3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Environment Management.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "md4",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Full-Stack CI CD.md",
+      "x": 720,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Reliability",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "mr1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Logging Across Services.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mr2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Sentry and OpenTelemetry.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mr3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Caching Layers.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mr4",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/DB Migrations.md",
+      "x": 1080,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mr5",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Backups and Restore.md",
+      "x": 1080,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Async + patterns",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "ms1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Realtime with Socket.IO.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ms2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Background Jobs.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ms3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Webhooks.md",
+      "x": 1440,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ms4",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Multi-Tenant Patterns.md",
+      "x": 1440,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ms5",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Feature Flags.md",
+      "x": 1440,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_5",
+      "type": "text",
+      "text": "## Integrations",
+      "x": 1800,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "mi1",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/File Upload Pipeline.md",
+      "x": 1800,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mi2",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Email Infrastructure.md",
+      "x": 1800,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mi3",
+      "type": "file",
+      "file": "9 Full Stack Infra/MERN Stack/Stripe Integration.md",
+      "x": 1800,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "m1",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "m2",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_3",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "m4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_4",
+      "fromNode": "m4",
+      "fromSide": "bottom",
+      "toNode": "m5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "ma1",
+      "fromSide": "bottom",
+      "toNode": "ma2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "ma2",
+      "fromSide": "bottom",
+      "toNode": "ma3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "md1",
+      "fromSide": "bottom",
+      "toNode": "md2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "md2",
+      "fromSide": "bottom",
+      "toNode": "md3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_3",
+      "fromNode": "md3",
+      "fromSide": "bottom",
+      "toNode": "md4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "mr1",
+      "fromSide": "bottom",
+      "toNode": "mr2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "mr2",
+      "fromSide": "bottom",
+      "toNode": "mr3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_3",
+      "fromNode": "mr3",
+      "fromSide": "bottom",
+      "toNode": "mr4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_4",
+      "fromNode": "mr4",
+      "fromSide": "bottom",
+      "toNode": "mr5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "ms1",
+      "fromSide": "bottom",
+      "toNode": "ms2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_2",
+      "fromNode": "ms2",
+      "fromSide": "bottom",
+      "toNode": "ms3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_3",
+      "fromNode": "ms3",
+      "fromSide": "bottom",
+      "toNode": "ms4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_4",
+      "fromNode": "ms4",
+      "fromSide": "bottom",
+      "toNode": "ms5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_1",
+      "fromNode": "mi1",
+      "fromSide": "bottom",
+      "toNode": "mi2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_2",
+      "fromNode": "mi2",
+      "fromSide": "bottom",
+      "toNode": "mi3",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "m1",
+      "fromSide": "right",
+      "toNode": "ma1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "ma1",
+      "fromSide": "right",
+      "toNode": "md1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "md1",
+      "fromSide": "right",
+      "toNode": "mr1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "mr1",
+      "fromSide": "right",
+      "toNode": "ms1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_4",
+      "fromNode": "ms1",
+      "fromSide": "right",
+      "toNode": "mi1",
+      "toSide": "left"
+    }
+  ]
+}

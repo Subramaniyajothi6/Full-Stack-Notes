@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# MERN Stack Roadmap\n\nFollow arrows from left to right.\nClick a card to open the section MOC.","x":0,"y":-180,"width":720,"height":130,"color":"5"},
+		{"id":"h1","type":"text","text":"## Foundations","x":0,"y":40,"width":280,"height":60,"color":"4"},
+		{"id":"js","type":"file","file":"9 Full Stack Infra/JavaScript/JavaScript MOC.md","x":0,"y":130,"width":280,"height":80,"color":"4"},
+		{"id":"sd","type":"file","file":"9 Full Stack Infra/System Design/System Design MOC.md","x":0,"y":240,"width":280,"height":80,"color":"4"},
+		{"id":"h2","type":"text","text":"## Frontend","x":360,"y":40,"width":280,"height":60,"color":"5"},
+		{"id":"react","type":"file","file":"9 Full Stack Infra/React/React MOC.md","x":360,"y":140,"width":280,"height":80,"color":"5"},
+		{"id":"h3","type":"text","text":"## Backend","x":720,"y":40,"width":280,"height":60,"color":"1"},
+		{"id":"node","type":"file","file":"9 Full Stack Infra/NodeJS/NodeJS MOC.md","x":720,"y":140,"width":280,"height":80,"color":"1"},
+		{"id":"expr","type":"file","file":"9 Full Stack Infra/Express/Express MOC.md","x":720,"y":240,"width":280,"height":80,"color":"1"},
+		{"id":"mongo","type":"file","file":"9 Full Stack Infra/MongoDB/MongoDB MOC.md","x":720,"y":340,"width":280,"height":80,"color":"1"},
+		{"id":"h4","type":"text","text":"## Build + Prep","x":1080,"y":40,"width":280,"height":60,"color":"6"},
+		{"id":"proj","type":"file","file":"9 Full Stack Infra/Projects/Projects MOC.md","x":1080,"y":140,"width":280,"height":80,"color":"6"},
+		{"id":"intv","type":"file","file":"9 Full Stack Infra/Interview Questions/Interview MOC.md","x":1080,"y":240,"width":280,"height":80,"color":"6"},
+		{"id":"h5","type":"text","text":"## Modern Engineering","x":1440,"y":40,"width":280,"height":60,"color":"3"},
+		{"id":"infra","type":"file","file":"9 Full Stack Infra/Full Stack Infra MOC.md","x":1440,"y":140,"width":280,"height":80,"color":"3"},
+		{"id":"infra_canvas","type":"file","file":"9 Full Stack Infra/Full Stack Infra Roadmap.canvas","x":1440,"y":240,"width":280,"height":80,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"js","fromSide":"right","toNode":"react","toSide":"left","label":"powers"},
+		{"id":"e2","fromNode":"js","fromSide":"right","toNode":"node","toSide":"left","label":"runtime"},
+		{"id":"e3","fromNode":"sd","fromSide":"right","toNode":"expr","toSide":"left","label":"design"},
+		{"id":"e4","fromNode":"node","fromSide":"bottom","toNode":"expr","toSide":"top","label":"HTTP"},
+		{"id":"e5","fromNode":"expr","fromSide":"bottom","toNode":"mongo","toSide":"top","label":"data layer"},
+		{"id":"e6","fromNode":"react","fromSide":"right","toNode":"proj","toSide":"left"},
+		{"id":"e7","fromNode":"expr","fromSide":"right","toNode":"proj","toSide":"left"},
+		{"id":"e8","fromNode":"mongo","fromSide":"right","toNode":"proj","toSide":"left"},
+		{"id":"e9","fromNode":"proj","fromSide":"bottom","toNode":"intv","toSide":"top","label":"practice → prep"},
+		{"id":"e10","fromNode":"proj","fromSide":"right","toNode":"infra","toSide":"left","label":"level up"},
+		{"id":"e11","fromNode":"infra","fromSide":"bottom","toNode":"infra_canvas","toSide":"top","label":"visual roadmap"}
+	]
+}

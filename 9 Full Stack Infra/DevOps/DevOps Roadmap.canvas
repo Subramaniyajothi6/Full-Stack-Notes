@@ -1,0 +1,315 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# DevOps Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "1"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Containers",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "d1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Docker.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "d2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Sandboxing.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "d3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Firecracker.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "d4",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Remote Code Execution.md",
+      "x": 0,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "d5",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/DoS Protection.md",
+      "x": 0,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## CI/CD + IaC",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "dc1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/CI CD.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dc2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Terraform.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dc3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Pulumi.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dc4",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Kubernetes.md",
+      "x": 360,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Runtime + perf",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "dr1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/WASM.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dr2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/FFmpeg.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## CLI + Linux",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "dl1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/CLI.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dl2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Linux Basics.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dl3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Shell Commands.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Languages",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "dx1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Rust.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dx2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DevOps/Go.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "d1",
+      "fromSide": "bottom",
+      "toNode": "d2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "d2",
+      "fromSide": "bottom",
+      "toNode": "d3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_3",
+      "fromNode": "d3",
+      "fromSide": "bottom",
+      "toNode": "d4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_4",
+      "fromNode": "d4",
+      "fromSide": "bottom",
+      "toNode": "d5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "dc1",
+      "fromSide": "bottom",
+      "toNode": "dc2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "dc2",
+      "fromSide": "bottom",
+      "toNode": "dc3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_3",
+      "fromNode": "dc3",
+      "fromSide": "bottom",
+      "toNode": "dc4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "dr1",
+      "fromSide": "bottom",
+      "toNode": "dr2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "dl1",
+      "fromSide": "bottom",
+      "toNode": "dl2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "dl2",
+      "fromSide": "bottom",
+      "toNode": "dl3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "dx1",
+      "fromSide": "bottom",
+      "toNode": "dx2",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "d1",
+      "fromSide": "right",
+      "toNode": "dc1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "dc1",
+      "fromSide": "right",
+      "toNode": "dr1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "dr1",
+      "fromSide": "right",
+      "toNode": "dl1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "dl1",
+      "fromSide": "right",
+      "toNode": "dx1",
+      "toSide": "left"
+    }
+  ]
+}

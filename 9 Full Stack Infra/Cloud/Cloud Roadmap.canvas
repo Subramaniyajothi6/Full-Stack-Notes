@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Cloud Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "3"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Providers",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "c1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/AWS.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "c2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/GCP.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "c3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Azure.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Network + IAM",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "cn1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/VPC and Networking.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "cn2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/IAM and Least Privilege.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "cn3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Secrets Management.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Compute",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "cc1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Lambda and Serverless.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "cc2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Containers in the Cloud.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Storage + edge",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "cs1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Object Storage.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "cs2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/AWS S3.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "cs3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Edge Computing.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Ops",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "co1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Cost Optimization.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "co2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Cloud/Multi-Region.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "c1",
+      "fromSide": "bottom",
+      "toNode": "c2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "c2",
+      "fromSide": "bottom",
+      "toNode": "c3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "cn1",
+      "fromSide": "bottom",
+      "toNode": "cn2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "cn2",
+      "fromSide": "bottom",
+      "toNode": "cn3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "cc1",
+      "fromSide": "bottom",
+      "toNode": "cc2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "cs1",
+      "fromSide": "bottom",
+      "toNode": "cs2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "cs2",
+      "fromSide": "bottom",
+      "toNode": "cs3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "co1",
+      "fromSide": "bottom",
+      "toNode": "co2",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "c1",
+      "fromSide": "right",
+      "toNode": "cn1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "cn1",
+      "fromSide": "right",
+      "toNode": "cc1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "cc1",
+      "fromSide": "right",
+      "toNode": "cs1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "cs1",
+      "fromSide": "right",
+      "toNode": "co1",
+      "toSide": "left"
+    }
+  ]
+}

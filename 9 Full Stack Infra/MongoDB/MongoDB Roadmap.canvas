@@ -1,0 +1,488 @@
+{
+  "nodes": [
+    {
+      "id": "mt",
+      "type": "text",
+      "text": "# MongoDB Roadmap\nLeft → right = beginner → advanced",
+      "x": 0,
+      "y": -160,
+      "width": 600,
+      "height": 100,
+      "color": "4"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "mfd",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/What is MongoDB.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mbs",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/BSON and Documents.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mcd",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Collections and Databases.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## CRUD",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "mcr",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/CRUD Operations.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mqo",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Query Operators.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "muo",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Update Operators.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mpr",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Projection.md",
+      "x": 360,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Performance",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "min",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Indexes.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mci",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Compound Indexes.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mex",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Explain and Query Plans.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Aggregation + design",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "mag",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Aggregation Pipeline.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mas",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Aggregation Stages.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mlk",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Lookup and Joins.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "msd",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Schema Design Patterns.md",
+      "x": 1080,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mer",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Embedded vs Referenced.md",
+      "x": 1080,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mdn",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Denormalization Tradeoffs.md",
+      "x": 1080,
+      "y": 650,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Reliability",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "mtx",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Transactions.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mrp",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Replication.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "msh",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Sharding.md",
+      "x": 1440,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_5",
+      "type": "text",
+      "text": "## Mongoose",
+      "x": 1800,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "mmb",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Mongoose Basics.md",
+      "x": 1800,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mms",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Mongoose Schema and Models.md",
+      "x": 1800,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mmv",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Mongoose Validation.md",
+      "x": 1800,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mmm",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Mongoose Middleware.md",
+      "x": 1800,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "mmp",
+      "type": "file",
+      "file": "9 Full Stack Infra/MongoDB/Mongoose Population.md",
+      "x": 1800,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "mfd",
+      "fromSide": "bottom",
+      "toNode": "mbs",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "mbs",
+      "fromSide": "bottom",
+      "toNode": "mcd",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "mcr",
+      "fromSide": "bottom",
+      "toNode": "mqo",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "mqo",
+      "fromSide": "bottom",
+      "toNode": "muo",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_3",
+      "fromNode": "muo",
+      "fromSide": "bottom",
+      "toNode": "mpr",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "min",
+      "fromSide": "bottom",
+      "toNode": "mci",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "mci",
+      "fromSide": "bottom",
+      "toNode": "mex",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "mag",
+      "fromSide": "bottom",
+      "toNode": "mas",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "mas",
+      "fromSide": "bottom",
+      "toNode": "mlk",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_3",
+      "fromNode": "mlk",
+      "fromSide": "bottom",
+      "toNode": "msd",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_4",
+      "fromNode": "msd",
+      "fromSide": "bottom",
+      "toNode": "mer",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_5",
+      "fromNode": "mer",
+      "fromSide": "bottom",
+      "toNode": "mdn",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "mtx",
+      "fromSide": "bottom",
+      "toNode": "mrp",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_2",
+      "fromNode": "mrp",
+      "fromSide": "bottom",
+      "toNode": "msh",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_1",
+      "fromNode": "mmb",
+      "fromSide": "bottom",
+      "toNode": "mms",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_2",
+      "fromNode": "mms",
+      "fromSide": "bottom",
+      "toNode": "mmv",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_3",
+      "fromNode": "mmv",
+      "fromSide": "bottom",
+      "toNode": "mmm",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_4",
+      "fromNode": "mmm",
+      "fromSide": "bottom",
+      "toNode": "mmp",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "mfd",
+      "fromSide": "right",
+      "toNode": "mcr",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "mcr",
+      "fromSide": "right",
+      "toNode": "min",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "min",
+      "fromSide": "right",
+      "toNode": "mag",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "mag",
+      "fromSide": "right",
+      "toNode": "mtx",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_4",
+      "fromNode": "mtx",
+      "fromSide": "right",
+      "toNode": "mmb",
+      "toSide": "left"
+    },
+    {
+      "id": "mxa",
+      "fromNode": "mqo",
+      "fromSide": "right",
+      "toNode": "min",
+      "toSide": "left"
+    },
+    {
+      "id": "mxb",
+      "fromNode": "min",
+      "fromSide": "bottom",
+      "toNode": "mci",
+      "toSide": "top"
+    },
+    {
+      "id": "mxc",
+      "fromNode": "mag",
+      "fromSide": "bottom",
+      "toNode": "mas",
+      "toSide": "top"
+    },
+    {
+      "id": "mxd",
+      "fromNode": "msd",
+      "fromSide": "bottom",
+      "toNode": "mer",
+      "toSide": "top"
+    },
+    {
+      "id": "mxe",
+      "fromNode": "mmb",
+      "fromSide": "bottom",
+      "toNode": "mms",
+      "toSide": "top"
+    }
+  ]
+}

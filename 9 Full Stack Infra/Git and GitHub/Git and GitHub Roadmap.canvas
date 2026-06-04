@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Git and GitHub Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "2"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "g1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Git and GitHub/Git Basics.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Workflow",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "g2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Git and GitHub/Branching Strategies.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "g3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Git and GitHub/GitHub Workflows.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_1_1",
+      "fromNode": "g2",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "g1",
+      "fromSide": "right",
+      "toNode": "g2",
+      "toSide": "left"
+    }
+  ]
+}

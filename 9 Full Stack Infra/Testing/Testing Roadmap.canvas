@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Testing Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Layers",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "t1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Unit Testing.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "t2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Integration Testing.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "t3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/E2E Testing.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Runners + libs",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "tr1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Vitest.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "tr2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/React Testing Library.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "tr3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/MSW.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## E2E tools",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "te1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Playwright.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "te2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Puppeteer.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "te3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/TestSprite.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Advanced",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "ta1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Visual Regression.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ta2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Contract Testing.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ta3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Load Testing.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ta4",
+      "type": "file",
+      "file": "9 Full Stack Infra/Testing/Mutation Testing.md",
+      "x": 1080,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "t1",
+      "fromSide": "bottom",
+      "toNode": "t2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "t2",
+      "fromSide": "bottom",
+      "toNode": "t3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "tr1",
+      "fromSide": "bottom",
+      "toNode": "tr2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "tr2",
+      "fromSide": "bottom",
+      "toNode": "tr3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "te1",
+      "fromSide": "bottom",
+      "toNode": "te2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "te2",
+      "fromSide": "bottom",
+      "toNode": "te3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "ta1",
+      "fromSide": "bottom",
+      "toNode": "ta2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "ta2",
+      "fromSide": "bottom",
+      "toNode": "ta3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_3",
+      "fromNode": "ta3",
+      "fromSide": "bottom",
+      "toNode": "ta4",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "t1",
+      "fromSide": "right",
+      "toNode": "tr1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "tr1",
+      "fromSide": "right",
+      "toNode": "te1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "te1",
+      "fromSide": "right",
+      "toNode": "ta1",
+      "toSide": "left"
+    }
+  ]
+}

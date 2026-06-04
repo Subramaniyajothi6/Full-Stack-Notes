@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# PostgreSQL Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "4"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/PostgreSQL.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/SQL Joins.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Performance",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "pp1",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Indexes in PostgreSQL.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pp2",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/EXPLAIN and Query Plans.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pp3",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Connection Pooling.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Querying",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "pq1",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/CTEs and Window Functions.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pq2",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/JSONB.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pq3",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Full-Text Search.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Reliability",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "pr1",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Transactions and Isolation.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pr2",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Replication and Failover.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "pr3",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Row-Level Security.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Extensions + ORM",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "px1",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/pgvector.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "px2",
+      "type": "file",
+      "file": "9 Full Stack Infra/PostgreSQL/Prisma.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "pp1",
+      "fromSide": "bottom",
+      "toNode": "pp2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "pp2",
+      "fromSide": "bottom",
+      "toNode": "pp3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "pq1",
+      "fromSide": "bottom",
+      "toNode": "pq2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "pq2",
+      "fromSide": "bottom",
+      "toNode": "pq3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "pr1",
+      "fromSide": "bottom",
+      "toNode": "pr2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "pr2",
+      "fromSide": "bottom",
+      "toNode": "pr3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "px1",
+      "fromSide": "bottom",
+      "toNode": "px2",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "p1",
+      "fromSide": "right",
+      "toNode": "pp1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "pp1",
+      "fromSide": "right",
+      "toNode": "pq1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "pq1",
+      "fromSide": "right",
+      "toNode": "pr1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "pr1",
+      "fromSide": "right",
+      "toNode": "px1",
+      "toSide": "left"
+    }
+  ]
+}

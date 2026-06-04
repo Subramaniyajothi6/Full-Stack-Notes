@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Redis Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "1"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "r1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Data structures",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "rd1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Strings.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rd2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Hashes.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rd3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Lists and Queues.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rd4",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Sets.md",
+      "x": 360,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rd5",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Sorted Sets.md",
+      "x": 360,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Messaging",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "rm1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Pub Sub vs Streams.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rm2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Redis Streams.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Advanced",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "ra1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Lua Scripting.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ra2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Eviction and Persistence.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ra3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Redis/Cluster and HA.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_1_1",
+      "fromNode": "rd1",
+      "fromSide": "bottom",
+      "toNode": "rd2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "rd2",
+      "fromSide": "bottom",
+      "toNode": "rd3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_3",
+      "fromNode": "rd3",
+      "fromSide": "bottom",
+      "toNode": "rd4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_4",
+      "fromNode": "rd4",
+      "fromSide": "bottom",
+      "toNode": "rd5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "rm1",
+      "fromSide": "bottom",
+      "toNode": "rm2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "ra1",
+      "fromSide": "bottom",
+      "toNode": "ra2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "ra2",
+      "fromSide": "bottom",
+      "toNode": "ra3",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "r1",
+      "fromSide": "right",
+      "toNode": "rd1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "rd1",
+      "fromSide": "right",
+      "toNode": "rm1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "rm1",
+      "fromSide": "right",
+      "toNode": "ra1",
+      "toSide": "left"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# AI Engineering Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "6"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Providers + SDK",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "a1",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/AI Providers.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "a2",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/AI SDK by Vercel.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Prompting + quality",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "ap1",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Prompt Engineering.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ap2",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Evals.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ap3",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Tracing and Observability.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ap4",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Guardrails.md",
+      "x": 360,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Retrieval",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "ar1",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Embeddings.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ar2",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Vector Search.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ar3",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Vector Databases.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ar4",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Turbopuffer.md",
+      "x": 720,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ar5",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/RAG.md",
+      "x": 720,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Agents + UI",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "ag1",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/AI Agents.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ag2",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Generative UI.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ag3",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Multimodal LLMs.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ag4",
+      "type": "file",
+      "file": "9 Full Stack Infra/AI Engineering/Fine-tuning vs RAG.md",
+      "x": 1080,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "a1",
+      "fromSide": "bottom",
+      "toNode": "a2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "ap1",
+      "fromSide": "bottom",
+      "toNode": "ap2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "ap2",
+      "fromSide": "bottom",
+      "toNode": "ap3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_3",
+      "fromNode": "ap3",
+      "fromSide": "bottom",
+      "toNode": "ap4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "ar1",
+      "fromSide": "bottom",
+      "toNode": "ar2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "ar2",
+      "fromSide": "bottom",
+      "toNode": "ar3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_3",
+      "fromNode": "ar3",
+      "fromSide": "bottom",
+      "toNode": "ar4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_4",
+      "fromNode": "ar4",
+      "fromSide": "bottom",
+      "toNode": "ar5",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "ag1",
+      "fromSide": "bottom",
+      "toNode": "ag2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "ag2",
+      "fromSide": "bottom",
+      "toNode": "ag3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_3",
+      "fromNode": "ag3",
+      "fromSide": "bottom",
+      "toNode": "ag4",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "a1",
+      "fromSide": "right",
+      "toNode": "ap1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "ap1",
+      "fromSide": "right",
+      "toNode": "ar1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "ar1",
+      "fromSide": "right",
+      "toNode": "ag1",
+      "toSide": "left"
+    }
+  ]
+}

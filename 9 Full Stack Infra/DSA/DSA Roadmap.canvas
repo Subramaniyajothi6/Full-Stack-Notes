@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# DSA Roadmap",
+      "x": 0,
+      "y": -180,
+      "width": 600,
+      "height": 100,
+      "color": "2"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "dx1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Big O Notation.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Data structures",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ds1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Hash Maps.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ds2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Heaps.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ds3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Trees and BSTs.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## Linear patterns",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "dp1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Two Pointers.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dp2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Sliding Window.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dp3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Fast and Slow Pointers.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dp4",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Binary Search.md",
+      "x": 720,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Graph / search",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "dg1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/BFS.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dg2",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/DFS.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "dg3",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Backtracking.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## Optimization",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "do1",
+      "type": "file",
+      "file": "9 Full Stack Infra/DSA/Dynamic Programming.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_1_1",
+      "fromNode": "ds1",
+      "fromSide": "bottom",
+      "toNode": "ds2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "ds2",
+      "fromSide": "bottom",
+      "toNode": "ds3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "dp1",
+      "fromSide": "bottom",
+      "toNode": "dp2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "dp2",
+      "fromSide": "bottom",
+      "toNode": "dp3",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_3",
+      "fromNode": "dp3",
+      "fromSide": "bottom",
+      "toNode": "dp4",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "dg1",
+      "fromSide": "bottom",
+      "toNode": "dg2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "dg2",
+      "fromSide": "bottom",
+      "toNode": "dg3",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "dx1",
+      "fromSide": "right",
+      "toNode": "ds1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "ds1",
+      "fromSide": "right",
+      "toNode": "dp1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "dp1",
+      "fromSide": "right",
+      "toNode": "dg1",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "dg1",
+      "fromSide": "right",
+      "toNode": "do1",
+      "toSide": "left"
+    }
+  ]
+}

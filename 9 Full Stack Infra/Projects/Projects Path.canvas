@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "pt",
+      "type": "text",
+      "text": "# Project Learning Path\nLeft → right = beginner → advanced.\nGreen=easy · Yellow=intermediate · Red=advanced",
+      "x": 0,
+      "y": -180,
+      "width": 720,
+      "height": 130,
+      "color": "6"
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/1 Todo App.md",
+      "x": 0,
+      "y": 40,
+      "width": 280,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/2 Notes App.md",
+      "x": 360,
+      "y": 40,
+      "width": 280,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/3 Authentication System.md",
+      "x": 720,
+      "y": 40,
+      "width": 280,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/4 Blog Platform.md",
+      "x": 1080,
+      "y": 40,
+      "width": 280,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/5 Job Tracker.md",
+      "x": 0,
+      "y": 200,
+      "width": 280,
+      "height": 80,
+      "color": "3"
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/6 Real-time Chat.md",
+      "x": 360,
+      "y": 200,
+      "width": 280,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/7 E-commerce Storefront.md",
+      "x": 720,
+      "y": 200,
+      "width": 280,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "p8",
+      "type": "file",
+      "file": "9 Full Stack Infra/Projects/8 SaaS Dashboard.md",
+      "x": 1080,
+      "y": 200,
+      "width": 280,
+      "height": 80,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "pe0",
+      "fromNode": "p1",
+      "fromSide": "right",
+      "toNode": "p2",
+      "toSide": "left"
+    },
+    {
+      "id": "pe1",
+      "fromNode": "p2",
+      "fromSide": "right",
+      "toNode": "p3",
+      "toSide": "left"
+    },
+    {
+      "id": "pe2",
+      "fromNode": "p3",
+      "fromSide": "right",
+      "toNode": "p4",
+      "toSide": "left"
+    },
+    {
+      "id": "pe4",
+      "fromNode": "p5",
+      "fromSide": "right",
+      "toNode": "p6",
+      "toSide": "left"
+    },
+    {
+      "id": "pe5",
+      "fromNode": "p6",
+      "fromSide": "right",
+      "toNode": "p7",
+      "toSide": "left"
+    },
+    {
+      "id": "pe6",
+      "fromNode": "p7",
+      "fromSide": "right",
+      "toNode": "p8",
+      "toSide": "left"
+    },
+    {
+      "id": "pwrap",
+      "fromNode": "p4",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top",
+      "label": "advance"
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "nodes": [
+    {
+      "id": "rt",
+      "type": "text",
+      "text": "# React Roadmap\nBeginner → Advanced — follow the arrows",
+      "x": 0,
+      "y": -160,
+      "width": 600,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "hdr_0",
+      "type": "text",
+      "text": "## Foundations",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rfd",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/What is React.md",
+      "x": 0,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rjsx",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/JSX.md",
+      "x": 0,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rvdom",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Virtual DOM.md",
+      "x": 0,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrec",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Reconciliation and Diffing.md",
+      "x": 0,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rfib",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Fiber Architecture.md",
+      "x": 0,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_1",
+      "type": "text",
+      "text": "## Components",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rcom",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Components.md",
+      "x": 360,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rfvc",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Functional vs Class Components.md",
+      "x": 360,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rprp",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Props.md",
+      "x": 360,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rcmp",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Component Composition.md",
+      "x": 360,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rcr",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Conditional Rendering.md",
+      "x": 360,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rlk",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Lists and Keys.md",
+      "x": 360,
+      "y": 650,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_2",
+      "type": "text",
+      "text": "## State",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rs",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/State in React.md",
+      "x": 720,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rls",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Lifting State Up.md",
+      "x": 720,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rfm",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Forms in React.md",
+      "x": 720,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rcu",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Controlled vs Uncontrolled Components.md",
+      "x": 720,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_3",
+      "type": "text",
+      "text": "## Hooks",
+      "x": 1080,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rus",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useState.md",
+      "x": 1080,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rue",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useEffect.md",
+      "x": 1080,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rur",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useRef.md",
+      "x": 1080,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "ruc",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useContext.md",
+      "x": 1080,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rurd",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useReducer.md",
+      "x": 1080,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rum",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useMemo.md",
+      "x": 1080,
+      "y": 650,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rucb",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/useCallback.md",
+      "x": 1080,
+      "y": 760,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rch",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Custom Hooks.md",
+      "x": 1080,
+      "y": 870,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrh",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Rules of Hooks.md",
+      "x": 1080,
+      "y": 980,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_4",
+      "type": "text",
+      "text": "## State mgmt + Routing",
+      "x": 1440,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rctx",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Context API.md",
+      "x": 1440,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrdx",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Redux Basics.md",
+      "x": 1440,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrtk",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Redux Toolkit.md",
+      "x": 1440,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rzst",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Zustand and Alternatives.md",
+      "x": 1440,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrouter",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/React Router.md",
+      "x": 1440,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rprt",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Protected Routes.md",
+      "x": 1440,
+      "y": 650,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "hdr_5",
+      "type": "text",
+      "text": "## Performance + advanced",
+      "x": 1800,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "rperf",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Performance Optimization.md",
+      "x": 1800,
+      "y": 100,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rmemo",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Memoization in React.md",
+      "x": 1800,
+      "y": 210,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rcs",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Code Splitting.md",
+      "x": 1800,
+      "y": 320,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rls2",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Lazy Loading and Suspense.md",
+      "x": 1800,
+      "y": 430,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "reb",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Error Boundaries.md",
+      "x": 1800,
+      "y": 540,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rhoc",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Higher Order Components.md",
+      "x": 1800,
+      "y": 650,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rrp",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Render Props.md",
+      "x": 1800,
+      "y": 760,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rtest",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/React Testing.md",
+      "x": 1800,
+      "y": 870,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rsc",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Server Components.md",
+      "x": 1800,
+      "y": 980,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "rcr2",
+      "type": "file",
+      "file": "9 Full Stack Infra/React/Concurrent Rendering.md",
+      "x": 1800,
+      "y": 1090,
+      "width": 280,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0_1",
+      "fromNode": "rfd",
+      "fromSide": "bottom",
+      "toNode": "rjsx",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_2",
+      "fromNode": "rjsx",
+      "fromSide": "bottom",
+      "toNode": "rvdom",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_3",
+      "fromNode": "rvdom",
+      "fromSide": "bottom",
+      "toNode": "rrec",
+      "toSide": "top"
+    },
+    {
+      "id": "e_0_4",
+      "fromNode": "rrec",
+      "fromSide": "bottom",
+      "toNode": "rfib",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_1",
+      "fromNode": "rcom",
+      "fromSide": "bottom",
+      "toNode": "rfvc",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_2",
+      "fromNode": "rfvc",
+      "fromSide": "bottom",
+      "toNode": "rprp",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_3",
+      "fromNode": "rprp",
+      "fromSide": "bottom",
+      "toNode": "rcmp",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_4",
+      "fromNode": "rcmp",
+      "fromSide": "bottom",
+      "toNode": "rcr",
+      "toSide": "top"
+    },
+    {
+      "id": "e_1_5",
+      "fromNode": "rcr",
+      "fromSide": "bottom",
+      "toNode": "rlk",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_1",
+      "fromNode": "rs",
+      "fromSide": "bottom",
+      "toNode": "rls",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_2",
+      "fromNode": "rls",
+      "fromSide": "bottom",
+      "toNode": "rfm",
+      "toSide": "top"
+    },
+    {
+      "id": "e_2_3",
+      "fromNode": "rfm",
+      "fromSide": "bottom",
+      "toNode": "rcu",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_1",
+      "fromNode": "rus",
+      "fromSide": "bottom",
+      "toNode": "rue",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_2",
+      "fromNode": "rue",
+      "fromSide": "bottom",
+      "toNode": "rur",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_3",
+      "fromNode": "rur",
+      "fromSide": "bottom",
+      "toNode": "ruc",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_4",
+      "fromNode": "ruc",
+      "fromSide": "bottom",
+      "toNode": "rurd",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_5",
+      "fromNode": "rurd",
+      "fromSide": "bottom",
+      "toNode": "rum",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_6",
+      "fromNode": "rum",
+      "fromSide": "bottom",
+      "toNode": "rucb",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_7",
+      "fromNode": "rucb",
+      "fromSide": "bottom",
+      "toNode": "rch",
+      "toSide": "top"
+    },
+    {
+      "id": "e_3_8",
+      "fromNode": "rch",
+      "fromSide": "bottom",
+      "toNode": "rrh",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_1",
+      "fromNode": "rctx",
+      "fromSide": "bottom",
+      "toNode": "rrdx",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_2",
+      "fromNode": "rrdx",
+      "fromSide": "bottom",
+      "toNode": "rrtk",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_3",
+      "fromNode": "rrtk",
+      "fromSide": "bottom",
+      "toNode": "rzst",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_4",
+      "fromNode": "rzst",
+      "fromSide": "bottom",
+      "toNode": "rrouter",
+      "toSide": "top"
+    },
+    {
+      "id": "e_4_5",
+      "fromNode": "rrouter",
+      "fromSide": "bottom",
+      "toNode": "rprt",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_1",
+      "fromNode": "rperf",
+      "fromSide": "bottom",
+      "toNode": "rmemo",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_2",
+      "fromNode": "rmemo",
+      "fromSide": "bottom",
+      "toNode": "rcs",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_3",
+      "fromNode": "rcs",
+      "fromSide": "bottom",
+      "toNode": "rls2",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_4",
+      "fromNode": "rls2",
+      "fromSide": "bottom",
+      "toNode": "reb",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_5",
+      "fromNode": "reb",
+      "fromSide": "bottom",
+      "toNode": "rhoc",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_6",
+      "fromNode": "rhoc",
+      "fromSide": "bottom",
+      "toNode": "rrp",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_7",
+      "fromNode": "rrp",
+      "fromSide": "bottom",
+      "toNode": "rtest",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_8",
+      "fromNode": "rtest",
+      "fromSide": "bottom",
+      "toNode": "rsc",
+      "toSide": "top"
+    },
+    {
+      "id": "e_5_9",
+      "fromNode": "rsc",
+      "fromSide": "bottom",
+      "toNode": "rcr2",
+      "toSide": "top"
+    },
+    {
+      "id": "cross_0",
+      "fromNode": "rfd",
+      "fromSide": "right",
+      "toNode": "rcom",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_1",
+      "fromNode": "rcom",
+      "fromSide": "right",
+      "toNode": "rs",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_2",
+      "fromNode": "rs",
+      "fromSide": "right",
+      "toNode": "rus",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_3",
+      "fromNode": "rus",
+      "fromSide": "right",
+      "toNode": "rctx",
+      "toSide": "left"
+    },
+    {
+      "id": "cross_4",
+      "fromNode": "rctx",
+      "fromSide": "right",
+      "toNode": "rperf",
+      "toSide": "left"
+    },
+    {
+      "id": "xa",
+      "fromNode": "rcom",
+      "fromSide": "right",
+      "toNode": "rs",
+      "toSide": "left"
+    },
+    {
+      "id": "xb",
+      "fromNode": "rs",
+      "fromSide": "right",
+      "toNode": "rus",
+      "toSide": "left"
+    },
+    {
+      "id": "xc",
+      "fromNode": "rurd",
+      "fromSide": "right",
+      "toNode": "rrdx",
+      "toSide": "left"
+    },
+    {
+      "id": "xd",
+      "fromNode": "rcmp",
+      "fromSide": "right",
+      "toNode": "rhoc",
+      "toSide": "left"
+    },
+    {
+      "id": "xe",
+      "fromNode": "rmemo",
+      "fromSide": "left",
+      "toNode": "rum",
+      "toSide": "right"
+    },
+    {
+      "id": "xf",
+      "fromNode": "rcs",
+      "fromSide": "bottom",
+      "toNode": "rls2",
+      "toSide": "top"
+    }
+  ]
+}
